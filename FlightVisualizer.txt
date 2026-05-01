@@ -1,0 +1,15 @@
+FlightVisualizer/
+├── main.py                    # 主程序入口
+├── config.py                  # 配置管理
+├── core/
+│   ├── data_loader.py        # CSV数据加载器
+│   ├── analyzer.py           # 简化的AI分析器
+│   ├── visualizer.py         # Plotly可视化模块（核心）
+│   └── report_generator.py   # 报告生成器
+├── ui/
+│   ├── dashboard.py          # Streamlit仪表板
+│   └── components.py         # UI组件
+├── assets/                   # 静态资源
+├── requirements.txt          # 依赖列表
+├── setup.py                 # 安装配置
+└── README.md
